@@ -5,7 +5,7 @@ metadata:
   namespace: gitops-demo
 
 spec:
-  type: ClusterIP
+  type: NodePort
   selector:
     app: nginx-demo
 
